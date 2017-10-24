@@ -1,6 +1,6 @@
 # There are many ways to implement these methods, feel free to add arguments 
 # to methods as you see fit, or to create helper methods.
-require 'bst_node'
+require_relative 'bst_node'
 
 class BinarySearchTree
 
@@ -107,7 +107,6 @@ class BinarySearchTree
     end
     arr
   end
-
 
   private
   # optional helper methods go here:
